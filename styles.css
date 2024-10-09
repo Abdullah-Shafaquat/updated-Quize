@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(image.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .container {
+    background-color: #B7E0FF;
+    padding: 80px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(39, 176, 194, 0.1);
+    text-align: center;
+    margin-right: 30%;
+    margin-left: 30%;
+    
+  }
+  
+  .start-btn, .restart-btn, n {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 20px 60px;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 20px;
+    border: 2px solid black;
+    display: block;
+  }
+  .choiceButton {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 20px 20px;
+    margin: 10px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 20px;
+    border: 2px solid black;
+  }
+  
+  .start-btn:hover, .restart-btn:hover, .choiceButton:hover {
+    background-color: #000000;
+    color: #f8f8f8;
+    border: 2px solid rgb(255, 255, 255);
+  }
+  
+  .choices {
+    margin-top: 20px;
+  }
+  
+  .choiceButton {
+    display: block;
+    width: 100%;
+    height: 10%;
+    margin-bottom: 10px;
+    text-align: left;
+    padding-left: 20px;
+  }
+  
+  .result-container {
+    display: block;
+  }
+  
